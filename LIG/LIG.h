@@ -19,4 +19,4 @@ FOUNDATION_EXPORT const unsigned char LIGVersionString[];
 
 
 #import <LIG/LIGMacro.h>
-#import <LIG/LIGLogManager.h>
+#import <LIG/LIGLog.h>

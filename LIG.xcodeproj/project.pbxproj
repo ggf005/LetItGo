@@ -10,8 +10,8 @@
 		972DEE7B1A9045D700082844 /* LIG.h in Headers */ = {isa = PBXBuildFile; fileRef = 972DEE7A1A9045D700082844 /* LIG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		972DEE811A9045D700082844 /* LIG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972DEE751A9045D700082844 /* LIG.framework */; };
 		972DEE881A9045D800082844 /* LIGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DEE871A9045D800082844 /* LIGTests.m */; };
-		972DEE981A905B5600082844 /* LIGLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 972DEE961A905B5600082844 /* LIGLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		972DEE991A905B5600082844 /* LIGLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DEE971A905B5600082844 /* LIGLogManager.m */; };
+		972DEE981A905B5600082844 /* LIGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 972DEE961A905B5600082844 /* LIGLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972DEE991A905B5600082844 /* LIGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DEE971A905B5600082844 /* LIGLog.m */; };
 		972DEE9D1A907AD800082844 /* LIGLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DEE9C1A907AD800082844 /* LIGLogTests.m */; };
 		972DEE9F1A907BAC00082844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972DEE9E1A907BAC00082844 /* Foundation.framework */; };
 		972DEEA01A907C1100082844 /* LIGMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 972DEE951A904EF600082844 /* LIGMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,8 +35,8 @@
 		972DEE861A9045D800082844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		972DEE871A9045D800082844 /* LIGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIGTests.m; sourceTree = "<group>"; };
 		972DEE951A904EF600082844 /* LIGMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIGMacro.h; sourceTree = "<group>"; };
-		972DEE961A905B5600082844 /* LIGLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIGLogManager.h; sourceTree = "<group>"; };
-		972DEE971A905B5600082844 /* LIGLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIGLogManager.m; sourceTree = "<group>"; };
+		972DEE961A905B5600082844 /* LIGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIGLog.h; sourceTree = "<group>"; };
+		972DEE971A905B5600082844 /* LIGLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIGLog.m; sourceTree = "<group>"; };
 		972DEE9C1A907AD800082844 /* LIGLogTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIGLogTests.m; sourceTree = "<group>"; };
 		972DEE9E1A907BAC00082844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -128,8 +128,8 @@
 		972DEE941A904ECC00082844 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				972DEE961A905B5600082844 /* LIGLogManager.h */,
-				972DEE971A905B5600082844 /* LIGLogManager.m */,
+				972DEE961A905B5600082844 /* LIGLog.h */,
+				972DEE971A905B5600082844 /* LIGLog.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972DEE981A905B5600082844 /* LIGLogManager.h in Headers */,
+				972DEE981A905B5600082844 /* LIGLog.h in Headers */,
 				972DEE7B1A9045D700082844 /* LIG.h in Headers */,
 				972DEEA01A907C1100082844 /* LIGMacro.h in Headers */,
 			);
@@ -243,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972DEE991A905B5600082844 /* LIGLogManager.m in Sources */,
+				972DEE991A905B5600082844 /* LIGLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
