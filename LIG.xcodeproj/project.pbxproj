@@ -29,6 +29,7 @@
 		972DEE801A9045D700082844 /* LIGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972DEE861A9045D800082844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		972DEE871A9045D800082844 /* LIGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIGTests.m; sourceTree = "<group>"; };
+		972DEE951A904EF600082844 /* LIGMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIGMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				972DEE7A1A9045D700082844 /* LIG.h */,
+				972DEE951A904EF600082844 /* LIGMacro.h */,
+				972DEE941A904ECC00082844 /* Foundation */,
+				972DEE931A904C7F00082844 /* UIKit */,
 				972DEE781A9045D700082844 /* Supporting Files */,
 			);
 			path = LIG;
@@ -100,6 +104,20 @@
 				972DEE861A9045D800082844 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		972DEE931A904C7F00082844 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		972DEE941A904ECC00082844 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
