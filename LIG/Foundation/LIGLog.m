@@ -33,6 +33,7 @@ extern NSString *describeWithLogLevel(LIGLogLevel logLevel);
 @property (nonatomic, strong) NSCondition * lock;
 @end
 
+
 @implementation LIGLogManager
 
 + (instancetype)sharedInstance

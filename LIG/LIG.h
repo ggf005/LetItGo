@@ -20,3 +20,6 @@ FOUNDATION_EXPORT const unsigned char LIGVersionString[];
 
 #import <LIG/LIGMacro.h>
 #import <LIG/LIGLog.h>
+
+// UIKit
+#import <LIG/UIImage+LIG.h>
